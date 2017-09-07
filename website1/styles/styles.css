@@ -1,0 +1,77 @@
+#maintitle {
+  text-align:center;
+}
+
+#boxes {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin: 50px
+}
+
+.box {
+  border: 1px solid black;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-position: inside;
+  border: 1px solid black;
+  background-color: grey;
+  align-items: stretch;
+  flex: 1;
+}
+
+.listitems {
+  border: 1px solid black;
+  text-decoration: underline;
+}
+
+#titles {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  background-color: grey
+}
+
+#lefttitle {
+  text-align: left;
+}
+
+#leftlist {
+  text-align: left;
+}
+
+#middletitle {
+  text-align: center;
+}
+
+#middlelist {
+  text-align: center;
+}
+
+#righttitle {
+  text-align: right;
+}
+
+#rightlist {
+  text-align: right
+}
+
+#bottomtitle {
+  text-align: left
+}
+
+#bottomlist {
+  text-align: left
+}
+
+#bottomrighttitle {
+  text-align: right
+}
+
+#bottomrightlist {
+  text-align: right
+}
